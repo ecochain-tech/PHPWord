@@ -71,7 +71,7 @@ class Frame extends AbstractStyle
         $wrap = $style->getWrap();
         if ($wrap !== null && isset($zIndices[$wrap])) {
             $styles['z-index'] = $zIndices[$wrap];
-            $wrap = null;
+            // $wrap = null;
         }
 
         // Style attribute
